@@ -1,0 +1,61 @@
+from datetime import datetime
+
+new_checkin = datetime.strptime("11-11-26", "%d-%m-%y")
+new_checkout = datetime.strptime("14-11-26", "%d-%m-%y")
+
+existing_checkin = datetime.strptime("10-11-26", "%d-%m-%y")
+existing_checkout = datetime.strptime("15-11-26", "%d-%m-%y")
+
+if new_checkin < existing_checkout and new_checkout > existing_checkin:
+    print("Booking Overlaps")
+else:
+    print("Room Available")
+
+
+#----------------------------
+in check Available rooms():
+    # while True:
+    #     print("----Checking Availability------")
+    #     try:
+    #         roomtype = input("Enter Room Type(Standard/Deluxe/Suite): ").strip().upper()
+
+    #         if(roomtype==""):
+    #             print("Room Type Cannot Be Empty")
+    #             continue
+    #         if roomtype not in ["STANDARD","DELUXE","SUITE"]:
+    #             raise RoomException("Please Enter Valid RoomType")
+
+        
+
+    #         guests = int(input("Enter No.of Guests: "))
+
+    #         if guests < 1:
+    #             raise RoomException("Guests Should be More than or equal to 1")
+
+    #         checkin = input("Enter Check-In Date: ").strip()
+    #         req_checkin_fmt = datetime.strptime(checkin,"%d-%m-%Y")
+
+    #         checkout = input("Enter Check-Out Date: ").strip()
+    #         req_checkout_fmt = datetime.strptime(checkout,"%d-%m-%Y")
+
+    #         break
+
+    #     except RoomException as e:
+    #         print(e)
+    #     except ValueError:
+    #         print("Please Enter Valid Input")
+
+
+    #-----------------------------------
+     # query = "Select Room_id,Room_Type from rooms where Room_Type = ? "
+    # cursor.execute(query,(type,))
+    # data = cursor.fetchall()
+    # print("-----Available Rooms-----")
+    # for row in data:
+    #     room_id = row[0]
+    #     room_type = row[1]
+    #     print(f"Room Id : {room_id} | Room Type:{room_type}")
+
+
+    percentage = (occpiedrooms/totalrooms) * 100
+    

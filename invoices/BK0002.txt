@@ -1,0 +1,5 @@
+======Night by Night Charges=====Date  |  Day  |  Room_Tarrif |  Extra_Guest_Charge |  GST_Rate  | Total_Rate12-11-2026  |  Thursday  |  4000.0  |  800.0  |  0.12  |  5376  
+======Night by Night Charges=====Date  |  Day  |  Room_Tarrif |  Extra_Guest_Charge |  GST_Rate  | Total_Rate13-11-2026  |  Friday  |  4800.0  |  800.0  |  0.12  |  6272  
+======Night by Night Charges=====Date  |  Day  |  Room_Tarrif |  Extra_Guest_Charge |  GST_Rate  | Total_Rate14-11-2026  |  Saturday  |  4800.0  |  800.0  |  0.12  |  6272  
+======Night by Night Charges=====Date  |  Day  |  Room_Tarrif |  Extra_Guest_Charge |  GST_Rate  | Total_Rate15-11-2026  |  Sunday  |  4000.0  |  800.0  |  0.12  |  5376  
+==========Bill Summary===========Total_Charges: 20800.0Long_Stay_Discount: 0.0Loyalty_Discount: 0.0Total_Discount_Amount: 0.0Amount After Discount: 20800.0Final Amount: 2496.0

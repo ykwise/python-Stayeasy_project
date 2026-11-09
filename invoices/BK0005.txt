@@ -1,0 +1,10 @@
+======Night by Night Charges=====
+Date  |  Day  |  Room_Tarrif |  Extra_Guest_Charge |  GST_Rate  | Total_Rate
+01-12-2026  |  Tuesday  |  2500.0  |  0.0  |  0.12  |  2800  
+==========Bill Summary===========
+Total_Charges: 2500.0
+Long_Stay_Discount: 0.0
+Loyalty_Discount: 0.0
+Total_Discount_Amount: 0.0
+Amount After Discount: 2500.0
+Final Amount: 300.0
